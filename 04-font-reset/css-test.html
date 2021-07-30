@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05-css-rules | 04-font-reset</title>
+
+    <style>
+    p {
+        font-size: 15px;
+        color:blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul {
+        background-color: #375056;
+    }
+    body{
+        color:#ffffff;
+        background-color: black;
+    }
+    p a {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #riquadro-contatti {
+        background-color: #375056;
+    }
+    #riquadro-contatti .contatti {
+        border-left: green 5px solid;
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>h1 heading</h1>
+    <h2>h2 heading</h2>
+    <h3>h3 heading</h3>
+    <p>this is the first paragraph!</p>
+    <p>this is the second paragraph!</p>
+    <p>this is the third paragraph!</p>
+
+    <ul>
+        <li>first item in unordered list</li>
+        <li>second item in unordered list</li>
+        <li>third item in unordered list</li>
+    </ul>
+    <p>the link here points to <a href="http://www.google.it">Google italian homepage</a> </p>
+
+    <div id="riquadro-contatti">
+        <ul>
+            <li class="contatti"> tel: <a href="tel:011-0123456789">011-0123456789</a></li>
+            <li class="contatti">email: <a href="mailto:andrea.professionale@gmail.com">andrea.professionale@gmail.com</a></li>
+            
+        </ul>
+        
+    </div>
+</body>
+</html>
